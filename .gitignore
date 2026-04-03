@@ -1,0 +1,5 @@
+node_modules/
+dist/
+public/engine.wasm
+public/wasm_exec.js
+.DS_Store

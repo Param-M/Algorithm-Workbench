@@ -1,0 +1,24 @@
+/* Benchmark.module.css */
+.panel { display: flex; flex-direction: column; gap: 16px; padding: 20px 22px; overflow-y: auto; height: 100%; }
+.top { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.title { font-family: var(--font-ui); font-size: 17px; font-weight: 600; color: var(--text-0); letter-spacing: -0.2px; margin-bottom: 3px; }
+.sub { font-family: var(--font-mono); font-size: 11px; color: var(--text-2); line-height: 1.5; }
+.runBtn { font-family: var(--font-mono); font-size: 12px; font-weight: 500; padding: 8px 18px; border-radius: var(--radius); background: var(--violet); color: white; border: none; cursor: pointer; white-space: nowrap; flex-shrink: 0; transition: opacity 0.15s; }
+.runBtn:hover:not(:disabled) { opacity: 0.85; }
+.runBtn:disabled { opacity: 0.4; cursor: not-allowed; background: var(--bg-4); color: var(--text-1); }
+.chips { display: flex; gap: 7px; flex-wrap: wrap; }
+.chip { display: flex; align-items: center; gap: 5px; padding: 4px 12px; border-radius: 100px; border: 1px solid var(--border-1); background: var(--bg-2); font-family: var(--font-mono); font-size: 11px; color: var(--text-1); cursor: pointer; transition: background 0.1s, color 0.1s, border-color 0.1s; }
+.chip:hover { background: var(--bg-3); }
+.chip.chipOn { font-weight: 500; }
+.cdot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.ctheory { font-size: 10px; opacity: 0.6; margin-left: 2px; }
+.chartBox { background: var(--bg-1); border: 1px solid var(--border-0); border-radius: var(--radius-lg); overflow: hidden; min-height: 180px; display: flex; align-items: center; justify-content: center; }
+.canvas { display: block; width: 100%; height: auto; }
+.chartEmpty { font-family: var(--font-mono); font-size: 13px; color: var(--text-2); text-align: center; padding: 60px 20px; }
+.chartEmpty strong { color: var(--violet); }
+.tableWrap { overflow-x: auto; }
+.table { width: 100%; border-collapse: collapse; font-family: var(--font-mono); font-size: 12px; }
+.table th { padding: 7px 10px; text-align: left; color: var(--text-2); font-weight: 500; border-bottom: 1px solid var(--border-0); background: var(--bg-2); white-space: nowrap; }
+.table td { padding: 7px 10px; color: var(--text-1); border-bottom: 1px solid var(--border-0); white-space: nowrap; }
+.table tr:last-child td { border-bottom: none; }
+.table tr:hover td { background: var(--bg-2); }
