@@ -1,11 +1,8 @@
-# Algorithm Workbench v2
+# Algorithm Workbench 
 
 A client-side algorithm visualization tool with **user-defined input data** for every algorithm.  
 Built with React + Go WebAssembly. Zero server. Fully static.
 
-## What's new in v2
-
-Every algorithm now accepts custom data directly in the UI:
 
 | Algorithm | What you can customize |
 |-----------|----------------------|
